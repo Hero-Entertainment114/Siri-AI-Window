@@ -79,7 +79,7 @@ Gemini được dùng để hiểu câu lệnh và xác định hành động c�
 | 🇯🇵 Tiếng Nhật | Nanami, Keita |
 | 🇨🇳 Tiếng Trung | Nhiều voice |
 | 🇰🇷 Tiếng Hàn | Nhiều voice |
-| Và nhiều ngôn ngữ khác |
+| Và nhiều ngôn ngữ khác |---|
 
 ### 🌌 UI
 

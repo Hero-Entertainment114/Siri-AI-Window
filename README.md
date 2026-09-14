@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🎙️ Siri AI Desktop Assistant
+# Siri AI Desktop Assistant
 
-### Trợ lý ảo AI đa ngôn ngữ dành cho Windows
+### A multilingual AI virtual assistant for Windows
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -13,97 +13,97 @@
 </p>
 
 <p>
-  Trợ lý ảo desktop kết hợp <b>Google Gemini AI</b>, nhận diện giọng nói,
-  tổng hợp giọng nói và khả năng tự động hóa Windows trong một giao diện hiện đại.
+  A desktop virtual assistant that combines <b>Google Gemini AI</b>, speech recognition,
+  speech synthesis, and Windows automation in a modern interface.
 </p>
 
 <p>
-  <a href="#-tính-năng">Tính năng</a> •
-  <a href="#-cài-đặt">Cài đặt</a> •
-  <a href="#-api-key">API Key</a> •
-  <a href="#-bản-quyền-license">Bản quyền</a> •
-  <a href="#️-miễn-trừ-trách-nhiệm">Disclaimer</a>
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#api-key">API Key</a> •
+  <a href="#license">License</a> •
+  <a href="#disclaimer">Disclaimer</a>
 </p>
 
 </div>
 
 ---
 
-## 📌 Giới thiệu
+## Introduction
 
-**Siri AI Desktop Assistant** là trợ lý ảo mã nguồn mở dành cho Windows, tập trung vào ba khả năng chính:
+**Siri AI Desktop Assistant** is an open-source virtual assistant for Windows, built around three core capabilities:
 
-| 🧠 Hiểu lệnh | ⚙️ Hành động | 🔊 Phản hồi |
+| Understand commands | Take action | Respond |
 |---|---|---|
-| Gemini phân tích yêu cầu bằng ngôn ngữ tự nhiên | Thực hiện thao tác trên Windows | Edge-TTS trả lời bằng giọng nói |
-| Voice / Text Input | App, file, CMD, chuột, phần cứng | Nhiều ngôn ngữ & nhiều giọng đọc |
+| Gemini interprets natural-language requests | Performs the corresponding action on Windows | Edge-TTS replies with voice output |
+| Voice / text input | Apps, files, CMD, mouse, hardware | Multiple languages and voices |
 
-> **Ý tưởng cốt lõi:** người dùng nói điều cần làm, AI phân tích ý định, ứng dụng thực hiện hành động tương ứng.
-
----
-
-## ✨ Tính năng
-
-### 🎙️ Voice Assistant
-- Kích hoạt bằng các từ khóa như `hello`, `siri`, `xin chào`, ...
-- Nhận diện giọng nói qua **Google Speech Recognition**.
-- Cho phép chuyển sang nhập lệnh bằng văn bản.
-
-### 🧠 Gemini Intent Parsing
-Gemini được dùng để hiểu câu lệnh và xác định hành động cần thực hiện.
-
-| Ví dụ lệnh | Hành động |
-|---|---|
-| `mở Chrome` | Tìm và khởi chạy ứng dụng |
-| `đóng Discord` | Đóng tiến trình tương ứng |
-| `kiểm tra RAM` | Đọc thông tin phần cứng |
-| `chạy ipconfig` | Mở CMD và thực thi lệnh |
-| `di chuyển chuột tới 500 300` | Điều khiển con trỏ |
-
-### 🖥️ Windows Automation
-
-| Chức năng | Công nghệ |
-|---|---|
-| 🚀 Mở app / file / folder | Windows / Python |
-| 🛑 Đóng tiến trình | `psutil` |
-| 💻 Chạy lệnh CMD | Windows CMD |
-| 🖱️ Điều khiển chuột | `pyautogui` |
-| 📊 Kiểm tra CPU / RAM / ổ C: | System information |
-
-### 🌍 Multi-language TTS
-
-| Ngôn ngữ | Ví dụ giọng đọc |
-|---|---|
-| 🇻🇳 Tiếng Việt | Hoài Mỹ, Nam Minh |
-| 🇺🇸 Tiếng Anh | Ava, Jenny, Guy |
-| 🇯🇵 Tiếng Nhật | Nanami, Keita |
-| 🇨🇳 Tiếng Trung | Nhiều voice |
-| 🇰🇷 Tiếng Hàn | Nhiều voice |
-| Và nhiều ngôn ngữ khác |---|
-
-### 🌌 UI
-
-- 🔮 **Visual Orb**: thay đổi trạng thái giữa `Listening`, `Thinking`, `Speaking`.
-- 💬 **Chat Window**: nhập và xem lệnh bằng văn bản.
-- ⚙️ **Settings**: cấu hình API Key, voice, model và các tùy chọn liên quan.
+> **Core idea:** the user says what they need done, the AI parses the intent, and the app carries out the matching action.
 
 ---
 
-## 🧱 Công nghệ
+## Features
+
+### Voice Assistant
+- Activated by wake words such as `hello`, `siri`, `xin chào`, etc.
+- Speech recognition powered by **Google Speech Recognition**.
+- Can switch to text-based command input.
+
+### Gemini Intent Parsing
+Gemini is used to understand commands and determine the action to take.
+
+| Example command | Action |
+|---|---|
+| `open Chrome` | Finds and launches the application |
+| `close Discord` | Terminates the corresponding process |
+| `check RAM` | Reads hardware information |
+| `run ipconfig` | Opens CMD and executes the command |
+| `move mouse to 500 300` | Controls the cursor |
+
+### Windows Automation
+
+| Function | Technology |
+|---|---|
+| Open app / file / folder | Windows / Python |
+| Terminate process | `psutil` |
+| Run CMD commands | Windows CMD |
+| Control the mouse | `pyautogui` |
+| Check CPU / RAM / C: drive | System information |
+
+### Multi-language TTS
+
+| Language | Example voices |
+|---|---|
+| Vietnamese | Hoai My, Nam Minh |
+| English | Ava, Jenny, Guy |
+| Japanese | Nanami, Keita |
+| Chinese | Multiple voices |
+| Korean | Multiple voices |
+| And more | — |
+
+### UI
+
+- **Visual Orb**: shifts between `Listening`, `Thinking`, and `Speaking` states.
+- **Chat Window**: type and view commands as text.
+- **Settings**: configure API Key, voice, model, and related options.
+
+---
+
+## Tech Stack
 
 ```text
 Python 3.9+
-├── PyQt5              → Giao diện
-├── Google Gemini API  → AI / Intent Parsing
-├── Speech Recognition → Nhận diện giọng nói
-├── Edge-TTS           → Tổng hợp giọng nói
-├── psutil             → Quản lý tiến trình & phần cứng
-└── pyautogui          → Điều khiển chuột
+├── PyQt5              → User interface
+├── Google Gemini API  → AI / intent parsing
+├── Speech Recognition → Voice recognition
+├── Edge-TTS           → Speech synthesis
+├── psutil             → Process & hardware management
+└── pyautogui          → Mouse control
 ```
 
 ---
 
-## 📁 Cấu trúc dự án
+## Project Structure
 
 ```text
 Siri-AI-Window/
@@ -114,43 +114,42 @@ Siri-AI-Window/
 └── README.md
 ```
 
-| File | Vai trò |
+| File | Role |
 |---|---|
-| `siri.py` | Mã nguồn chính |
-| `siri_config.json` | API Key, voice, model và cấu hình cá nhân |
-| `requirements.txt` | Danh sách dependency |
-| `.gitignore` | File / thư mục loại khỏi Git |
-| `README.md` | Tài liệu dự án |
+| `siri.py` | Main source code |
+| `siri_config.json` | API key, voice, model, and personal configuration |
+| `requirements.txt` | Dependency list |
+| `.gitignore` | Files/folders excluded from Git |
+| `README.md` | Project documentation |
 
-> 🔐 **Không commit `siri_config.json` lên GitHub nếu file đang chứa API Key thật.**
+> **Do not commit `siri_config.json` to GitHub if it contains a real API key.**
 
 ---
 
-## 🚀 Cài đặt
+## Installation
 
-### 📦 Phương án A · Bản đóng gói
+### Option A · Packaged build
 
-**Không cần cài Python.**
+**No Python installation required.**
 
-**1.** Mở mục **[Releases](../../releases)** của repository.
-
-**2.** Tải:
+1. Open the **[Releases](../../releases)** section of the repository.
+2. Download:
 
 ```text
 Siri-AI-v1.0-Trial.zip
 ```
 
-**3.** Giải nén → chạy:
+3. Extract, then run:
 
 ```text
 siri.exe
 ```
 
-**4.** Vào **Settings** → nhập Gemini API Key → **Save Settings & Activate**.
+4. Go to **Settings** → enter your Gemini API Key → **Save Settings & Activate**.
 
 ---
 
-### 🐍 Phương án B · Chạy từ source
+### Option B · Run from source
 
 #### 1. Clone
 
@@ -159,7 +158,7 @@ git clone https://github.com/Hero-Entertainment114/Siri-AI-Window.git
 cd Siri-AI-Window
 ```
 
-#### 2. Tạo môi trường ảo
+#### 2. Create a virtual environment
 
 ```bash
 python -m venv .venv
@@ -171,112 +170,112 @@ Windows:
 .venv\Scripts\activate
 ```
 
-#### 3. Cài dependency
+#### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 4. Chạy
+#### 4. Run
 
 ```bash
 python siri.py
 ```
 
-> **Yêu cầu:** Python **3.9+** và môi trường Windows phù hợp với các thư viện được liệt kê trong `requirements.txt`.
+> **Requirements:** Python **3.9+** and a Windows environment compatible with the libraries listed in `requirements.txt`.
 
 ---
 
-## 🔑 API Key
+## API Key
 
 ### BYOK · Bring Your Own Key
 
-Ứng dụng sử dụng mô hình **BYOK**, tức người dùng tự cung cấp Gemini API Key.
+The application uses a **BYOK** model, meaning users supply their own Gemini API Key.
 
-Key được lưu trong:
+The key is stored in:
 
 ```text
 siri_config.json
 ```
 
-### 🔄 Nhiều API Key
+### Multiple API Keys
 
-Có thể nhập nhiều key và phân tách bằng dấu phẩy:
+You can enter multiple keys separated by commas:
 
 ```text
 API_KEY_1,API_KEY_2,API_KEY_3
 ```
 
-Ứng dụng hỗ trợ cơ chế xoay vòng key (`rotate_key`) để chuyển sang key khác khi key hiện tại gặp giới hạn sử dụng.
+The app supports a key-rotation mechanism (`rotate_key`) to switch to another key when the current one hits a usage limit.
 
-### 🔗 Tạo Gemini API Key
+### Creating a Gemini API Key
 
-**Google AI Studio**  
+**Google AI Studio**
 https://aistudio.google.com/
 
-> ⚠️ **API Key là thông tin bí mật. Không đăng công khai, không commit vào repository và không gửi cho người khác.**
+> **Your API key is sensitive information. Do not post it publicly, commit it to a repository, or share it with others.**
 
 ---
 
-## 🔒 Bảo mật & Quyền riêng tư
+## Security & Privacy
 
-| Vấn đề | Chính sách |
+| Topic | Policy |
 |---|---|
-| 🔑 API Key | Lưu cục bộ trong `siri_config.json` |
-| 🎙️ Microphone | Dùng cho phiên nhận diện giọng nói |
-| 💾 Audio | Dự án không chủ động lưu âm thanh thành file lâu dài |
-| 🌐 API | Request có thể được gửi tới dịch vụ bên thứ ba cần thiết cho chức năng, đặc biệt là dịch vụ Google |
-| 👀 Source Code | Có thể kiểm tra trực tiếp từ repository |
+| API Key | Stored locally in `siri_config.json` |
+| Microphone | Used during speech-recognition sessions |
+| Audio | The project does not deliberately store audio as permanent files |
+| API | Requests may be sent to necessary third-party services, particularly Google's |
+| Source Code | Can be reviewed directly from the repository |
 
-### ⚠️ Quan trọng
+### Important
 
-Khẳng định an toàn tuyệt đối là không phù hợp với bất kỳ phần mềm nào. Người dùng nên **tự kiểm tra source code, dependency và quyền truy cập** trước khi chạy trên máy quan trọng.
-
----
-
-## ⚠️ Miễn trừ trách nhiệm
-
-> ### ❗ SỬ DỤNG CÓ RỦI RO
->
-> **Siri AI Desktop Assistant được cung cấp theo nguyên tắc `AS IS`, không có bất kỳ bảo đảm nào về tính chính xác, ổn định hoặc phù hợp cho một mục đích cụ thể.**
->
-> Do ứng dụng có khả năng để AI thực hiện thao tác trên hệ điều hành, **người dùng tự chịu trách nhiệm đối với mọi câu lệnh đã cung cấp và mọi hậu quả phát sinh từ việc sử dụng phần mềm**.
-
-Tác giả không chịu trách nhiệm đối với:
-
-- Mất dữ liệu hoặc thay đổi dữ liệu ngoài ý muốn.
-- Đóng, mở hoặc điều khiển nhầm ứng dụng / tiến trình.
-- Lệnh hệ thống gây lỗi, mất cấu hình hoặc ảnh hưởng Windows.
-- Thiệt hại phát sinh từ lỗi AI, lỗi thư viện hoặc dịch vụ bên thứ ba.
-- Giới hạn, thay đổi API, chính sách hoặc hành vi của Google / Microsoft / nhà cung cấp khác.
-- Bất kỳ thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hoặc hậu quả nào phát sinh từ việc sử dụng phần mềm.
-
-> 🛑 **Không giao cho AI các tác vụ có thể gây mất dữ liệu hoặc ảnh hưởng hệ thống nếu bạn chưa hiểu rõ tác động.**
+No software can guarantee absolute safety. Users should **review the source code, dependencies, and permissions themselves** before running it on an important machine.
 
 ---
 
-## ©️ Bản quyền & License
+## Disclaimer
+
+> ### USE AT YOUR OWN RISK
+>
+> **Siri AI Desktop Assistant is provided "AS IS", without any warranty of accuracy, stability, or fitness for a particular purpose.**
+>
+> Because the application allows AI to perform actions on the operating system, **users are solely responsible for every command they provide and for any consequences arising from use of the software**.
+
+The author is not responsible for:
+
+- Data loss or unintended data changes.
+- Applications/processes being closed, opened, or controlled by mistake.
+- System commands that cause errors, loss of configuration, or affect Windows.
+- Damage arising from AI errors, library bugs, or third-party services.
+- Limitations, changes to APIs, policies, or behavior from Google, Microsoft, or other providers.
+- Any direct, indirect, incidental, or consequential damages arising from use of the software.
+
+> **Do not assign the AI tasks that could cause data loss or affect your system if you do not fully understand the impact.**
+
+---
+
+## License
 
 ### MIT License
 
-Dự án được phát hành theo **MIT License**.
+This project is released under the **MIT License**.
 
-Điều đó cho phép bạn, theo các điều khoản của MIT License:
+Under the terms of the MIT License, you are permitted to:
 
 ```text
-✓ Sử dụng
-✓ Sao chép
-✓ Chỉnh sửa
-✓ Phân phối
-✓ Sử dụng trong dự án cá nhân
-✓ Sử dụng trong dự án thương mại
+✓ Use
+✓ Copy
+✓ Modify
+✓ Distribute
+✓ Use in personal projects
+✓ Use in commercial projects
 ```
 
-### 📌 Điều kiện quan trọng
+### Important condition
 
-Nếu bạn sao chép, tái sử dụng hoặc phân phối mã nguồn của dự án, **vui lòng giữ lại thông báo bản quyền và giấy phép MIT**.
+If you copy, reuse, or redistribute this project's source code, **please retain the copyright notice and MIT license**.
 
-Thông tin tác giả gốc:
+Original author information:
 
 ```text
 Author:
@@ -286,23 +285,23 @@ Repository:
 https://github.com/Hero-Entertainment114/Siri-AI-Window
 ```
 
-> **Không được trình bày mã nguồn gốc như sản phẩm do bạn tự viết hoàn toàn.**
+> **Do not present the original source code as something you wrote entirely by yourself.**
 >
-> **Việc sử dụng mã nguồn theo MIT License không đồng nghĩa với việc chuyển giao quyền tác giả hay thương hiệu của tác giả gốc.**
+> **Using the source code under the MIT License does not transfer the original author's copyright or brand.**
 
-### 📚 License đầy đủ
+### Full license
 
-Bạn có thể thêm file `LICENSE` vào repository với nội dung chuẩn của **MIT License**, trong đó ghi tên chủ sở hữu bản quyền của dự án.
+You may add a `LICENSE` file to the repository with the standard MIT License text, naming the copyright holder of the project.
 
 ---
 
-## 🤝 Đóng góp
+## Contributing
 
-Pull Request và Issue được hoan nghênh.
+Pull requests and issues are welcome.
 
-### Báo lỗi
+### Reporting bugs
 
-Khi mở Issue, nên kèm:
+When opening an issue, please include:
 
 ```text
 OS:
@@ -313,7 +312,7 @@ Steps to reproduce:
 Log / Traceback:
 ```
 
-### Pull Request
+### Pull requests
 
 ```bash
 git checkout -b feature/my-feature
@@ -322,35 +321,35 @@ git commit -m "Add: my feature"
 git push origin feature/my-feature
 ```
 
-Sau đó mở **Pull Request** trên GitHub.
+Then open a **Pull Request** on GitHub.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 ```text
-[✓] Voice Assistant
-[✓] Gemini AI Integration
-[✓] Windows Automation
-[✓] Multi-language TTS
-[✓] Chat UI
-[✓] Settings UI
+[x] Voice Assistant
+[x] Gemini AI Integration
+[x] Windows Automation
+[x] Multi-language TTS
+[x] Chat UI
+[x] Settings UI
 
-[ ] Wake-word detection nâng cao
-[ ] Plugin / Extension System
+[ ] Advanced wake-word detection
+[ ] Plugin / extension system
 [ ] More system actions
 [ ] Custom personality
 [ ] Conversation history
 [ ] Tray mode
 ```
 
-> Roadmap có thể thay đổi trong quá trình phát triển.
+> The roadmap is subject to change as development continues.
 
 ---
 
 <div align="center">
 
-## 👤 Author
+## Author
 
 ### Hero-Entertainment114
 
@@ -358,11 +357,8 @@ Sau đó mở **Pull Request** trên GitHub.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Hero--Entertainment114-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hero-Entertainment114)
 
-<br>
-
-
 ---
 
-### ⭐ Nếu dự án hữu ích, hãy để lại một Star trên GitHub!
+### If this project is useful, please leave a Star on GitHub!
 
 </div>

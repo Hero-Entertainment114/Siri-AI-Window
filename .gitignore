@@ -1,0 +1,16 @@
+# Config & Personal Keys
+siri_config.json
+.env
+*.mp3
+temp_siri.mp3
+
+# Python build artifacts
+__pycache__/
+*.pyc
+build/
+dist/
+
+# Executable & Zip releases (Không push trực tiếp file binary vào Git history)
+*.exe
+*.zip
+_internal/

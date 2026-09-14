@@ -1,0 +1,7 @@
+google-genai
+PyQt5
+pygame
+speechrecognition
+edge-tts
+psutil
+pyautogui

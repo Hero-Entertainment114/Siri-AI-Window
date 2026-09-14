@@ -359,7 +359,7 @@ Sau đó mở **Pull Request** trên GitHub.
 
 <br>
 
-Made with 🧠 AI, 🐍 Python & ☕
+Made with Hero-Entertainment114
 
 ---
 
